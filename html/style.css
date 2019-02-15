@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+#container {
+	font-family: Georgia;
+	padding: 20px;
+	text-shadow: 1px 1px 3px #000000;
+    position: absolute;
+    /*color: rgb(241, 235, 235); */
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 27px;
+	text-align: center;
+	background-color: #212121;
+	/*border-radius: 20px;
+	border: 2px solid #dad9d9 ;*/
+}
+
+.button {
+	background-color: #555555;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px;
+	cursor: pointer;
+}
+
+.small {
+	font-size: 18px;
+}
