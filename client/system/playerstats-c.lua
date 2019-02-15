@@ -27,11 +27,6 @@ end)
 --[[
 TriggerServerEvent("spawnPlayer", source)
 
-RegisterNetEvent("welcomeBackMessage")
-AddEventHandler("welcomeBackMessage", function(argument)
-    TriggerEvent("chatMessage", "[Server]", {255,255,0}, "Welcome back, " .. argument .. "!")
-end)
-
 RegisterNetEvent("outputDBEntry")
 AddEventHandler("outputDBEntry", function(argument)
     TriggerEvent("chatMessage", "[server]", {255,255,0}, "Got last entry: " .. argument .. " from DB.")
